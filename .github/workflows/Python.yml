@@ -37,7 +37,7 @@ jobs:
         git config --global user.name "inotart"
         echo Initing git.
         git init
-        git remote add origin https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/xX7912Xx/DotCS.git
+        git remote add origin https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/Inotart/DotCS_Community.git
         git config --global core.autocrlf false
         echo Loading files.
         git add ./DotCS_community
